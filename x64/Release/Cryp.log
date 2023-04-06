@@ -1,0 +1,35 @@
+﻿生成启动时间为 2021/12/16 22:14:23。
+     1>项目“C:\Users\Administrator\Desktop\Cryp\Cryp\Cryp.vcxproj”在节点 2 上(Build 个目标)。
+       项目文件包含 ToolsVersion="14.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\administrator\desktop\cryp\cryp\DES.h(517): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>c:\users\administrator\desktop\cryp\cryp\DES.h(541): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>c:\users\administrator\desktop\cryp\cryp\MD5.h(61): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\desktop\cryp\cryp\MD5.h(83): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\administrator\desktop\cryp\cryp\MD5.h(105): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>main.cpp(110): warning C4267: “初始化”: 从“size_t”转换到“uint”，可能丢失数据
+     1>main.cpp(193): warning C4267: “初始化”: 从“size_t”转换到“uint”，可能丢失数据
+     1>main.cpp(209): warning C4018: “<”: 有符号/无符号不匹配
+     1>main.cpp(224): warning C4018: “<”: 有符号/无符号不匹配
+     1>main.cpp(280): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>main.cpp(356): warning C4267: “初始化”: 从“size_t”转换到“uint”，可能丢失数据
+     1>main.cpp(379): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>main.cpp(465): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>main.cpp(494): warning C4267: “初始化”: 从“size_t”转换到“uint”，可能丢失数据
+     1>main.cpp(513): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>main.cpp(527): warning C4267: “初始化”: 从“size_t”转换到“uint”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\Cryp\x64\Release\Cryp.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\Administrator\Desktop\Cryp\x64\Release\Cryp.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\Cryp\x64\Release\Cryp.lib" /MACHINE:X64 x64\Release\AES.obj
+         x64\Release\BigInt.obj
+         x64\Release\main.obj
+         x64\Release\RSA.obj
+         正在生成代码
+         已完成代码的生成
+         Cryp.vcxproj -> C:\Users\Administrator\Desktop\Cryp\x64\Release\Cryp.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\Cryp\Cryp\Cryp.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.13
